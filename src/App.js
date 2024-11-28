@@ -4,6 +4,7 @@ import './App.css';
 import { Navbar } from './component/Navbar/Navbar';
 import { darkTheme } from './Theme/DarkTheme';
 import Home from './component/Home/Home';
+import RestaurantDetails from './component/Restuarant/RestaurantDetails';
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <ThemeProvider theme={darkTheme}>
       <CssBaseline/>
       <Navbar/>
-      <Home/>
+      {/* <Home/> */}
+      <RestaurantDetails/>
       </ThemeProvider>
   );
 }
